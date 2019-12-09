@@ -12,11 +12,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "github:christopherdro/react-native-print"
+    "url": "github.com:smisy/react-native-print.git"
   },
   "peerDependencies": {
     "react-native": ">=0.8.0 || 0.8.0-rc || 0.8.0-rc.2 || 0.9.0-rc || 0.10.1"
   },
-  "author": "Christopher Dro <casheghian@gmail.com> (http://chris.si)",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@smisy"
+  },
   "license": "MIT"
 }
